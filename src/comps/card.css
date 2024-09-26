@@ -1,0 +1,52 @@
+.task-card {
+    background-color: #fafafa;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-id {
+    font-weight: 500;
+    color: #6a6a6a;
+  }
+  
+  .task-description {
+    margin: 5px 0;
+    color: #555;
+    font-weight: bold;
+    flex-grow: 1;
+  }
+  
+  .task-type {
+    font-size: 12px;
+    background-color: #f0f0f0;
+    padding: 5px;
+    border-radius: 4px;
+    color: #666;
+  }
+  .task-bottom {
+    display: flex;
+    align-items: center;
+    gap: 2px; /* 2px space between icon and type */
+  }
+  
+  /* Optional: Styling the icon */
+  .task-icon {
+    font-size: 18px;
+    background-color: #f0f0f0;
+    padding: 4px;
+    margin-right: 4px;
+    border-radius: 4px;
+    color: #666;
+  }
+  .progress-icons{
+    display: flex;
+    /* flex-direction: row; */
+    /* padding-inline: 2px; */
+    align-items: center;
+  }
+  .icon-imgs{
+    padding-inline: 5px;
+  }

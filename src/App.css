@@ -1,0 +1,141 @@
+/* Main app container */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.Navbar{
+  width: full;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Navbar styling */
+.Navbar {
+  /* background-color: #333; */
+  padding: 10px 20px;
+  color: white;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.filter-icon{
+  width: 500px;
+  height: 500px;
+}
+.dropdown-btn {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  /* border: none; */
+  box-shadow: rgba(98, 97, 97, 0.2);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  margin: 20px;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: block;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(98, 97, 97, 0.2);
+  z-index: 1;
+  top: 100%;
+  left: 0;
+  margin-top: 5px;
+  /* border: 1px solid rgb(152, 152, 152); */
+  border-radius: 5px;
+}
+
+/* Dropdown links */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: white;
+}
+
+
+.app-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #f5f5f5;
+  font-family: "Montserrat", sans-serif;
+}
+.dropdown-items{
+  border: none;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #666;
+  font-size: 1rem;
+  padding-inline: 5px;
+}
+.items{
+  position: relative;  /* Establish a positioning context for absolute children */
+  /* display: inline-block;  */
+  width: 100px;  /* Width of the button */
+  height: auto;  /* Height will adjust based on content */
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  width: 300px;
+  
+  
+}
+.items-btn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  border: 2px solid #999999;
+  border-radius: 5px;
+  /* padding-inline: 15px; */
+  width: 100px;
+  box-shadow: 0px 8px 16px rgba(124, 123, 123, 0.2);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.display-icon{
+  padding-inline: 5px;
+}
+
+.group-dropdown{
+  display: block; /* Display dropdown content */
+  position: absolute; /* Position it relative to the group-dropdown */
+  top: 100%; /* Position it directly below the button */
+  right: 0; /* Align it to the left */
+  background-color: white; /* Dropdown background */
+  min-width: 100px; /* Ensure dropdown is at least as wide as the button */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for dropdown */
+  z-index: 1; 
+  border-radius: 5px;
+}
+.drop-btn{
+  display: flex;
+  background-color: transparent;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  padding: 5px;
+}

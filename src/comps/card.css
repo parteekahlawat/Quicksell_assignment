@@ -31,8 +31,7 @@
     align-items: center;
     gap: 2px; /* 2px space between icon and type */
   }
-  
-  /* Optional: Styling the icon */
+
   .task-icon {
     font-size: 18px;
     background-color: #f0f0f0;
@@ -43,8 +42,6 @@
   }
   .progress-icons{
     display: flex;
-    /* flex-direction: row; */
-    /* padding-inline: 2px; */
     align-items: center;
   }
   .icon-imgs{
